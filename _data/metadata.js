@@ -1,7 +1,8 @@
 let data = {
-	username: "eleven_ty", // No leading @ here
-	homeLabel: "11ty.dev",
-	homeUrl: "https://www.11ty.dev/",
+	username: "gerwitz", // No leading @ here
+	homeLabel: "notes",
+	homeUrl: "https://hans.gerwitz.com/",
+	pathPrefix: "/notes/",
 };
 
 data.avatar = `https://v1.indieweb-avatar.11ty.dev/${encodeURIComponent(data.homeUrl)}/`;

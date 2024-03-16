@@ -16,8 +16,8 @@ const ELEVENTY_IMG_OPTIONS = {
 	widths: [null],
 	formats: ["jpeg"],
 	// If you don’t want to check this into your git repository (and want to fetch them in your build)
-	// outputDir: "./_site/img/",
-	outputDir: "./img/",
+	outputDir: "./_site/img/",
+	// outputDir: "./img/",
 	urlPath: "/img/",
 	cacheDuration: "*",
 	filenameFormat: function (id, src, width, format, options) {
